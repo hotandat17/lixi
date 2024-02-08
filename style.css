@@ -1,0 +1,65 @@
+body{
+
+    background-image: url(./image/background.png);
+    background-size: cover;
+    position: relative;
+    
+}
+
+.newYear{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    place-items: center;
+    display: grid;
+    box-shadow: 0 0 30px red;
+    border-radius: 16px;
+   
+}
+.button{
+    width: 18em;
+
+}
+
+#buttonNo{
+    width: 7em;
+    height: 4em;
+    border-radius: 15px;
+    background: #ff000042;
+    margin: 24px;
+    
+}
+#buttonYes{
+    width: 7em;
+    height: 4em;
+    border-radius: 15px;
+    background: #ff000042;
+    margin: 24px;
+}
+.onDiv{
+    background: white;
+    width: 34em;
+    height: 18em;
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 596px #2b2424;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 15px;
+}
+.close{
+    width: 7em;
+    height: 4em;
+    border-radius: 15px;
+    background: #ff000042;
+}
+#none{
+    display: none;
+}
